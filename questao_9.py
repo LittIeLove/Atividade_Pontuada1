@@ -1,5 +1,5 @@
 import os
-os.system("clear || cls")
+os.system("clear || cls") #LIMPEZA DE TERMINAL
 print("""
 ==========TABELA DO IMPRESTIMO==========
 O valor total deve ser 10x o valor da renda mensal do solicitante

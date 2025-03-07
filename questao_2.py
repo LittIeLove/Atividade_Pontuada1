@@ -1,7 +1,8 @@
 import os
-os.system ("clear")
+os.system ("clear") #LIMPEZA DE TERMINAL
 
 #Entrada de dados
+
 nome = str(input("Digite o nome:"))
 sexo = int(input("Digite 1 para masculino e 2 para feminino: "))
 estadoc = int(input("Digite 1 para casado(a) e 2 para solteiro(a): "))

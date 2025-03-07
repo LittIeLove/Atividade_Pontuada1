@@ -5,10 +5,14 @@ print("""
 
 A = Álcool  3.79R$
 G = Gasolina 6.59R$ """)
+
 #Entrada de dados
+
 comb = input("Digite o tipo de combustivel que deseja abastecer: ").upper()
 litros = float(input("Digite a quantidade de litros que deseja abastecer: "))
-os.system ("clear || cls")
+os.system ("clear || cls") #LIMPEZA DE TERMINAL
+
+#PROCESSAMENTO
 
 if comb == "A":
     preço = 3.79
@@ -35,6 +39,9 @@ match comb:
             
 valor = preço * litros
 valorfinal = valor - desconto
+
+#Saida de dados
+
 print(f"O valor total a ser pago é de {valorfinal:.2f} no(a) {tipo}")
 print(f"Você abasteceu {litros}L")
          

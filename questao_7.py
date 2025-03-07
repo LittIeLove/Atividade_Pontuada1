@@ -1,5 +1,6 @@
 import os
-os.system("clear || cls")
+os.system("clear || cls")  #LIMPEZA DE TERMINAL
+
 print("""    
 ==========TABELA DE PRODUTOS==========
 1 = Placa de video generica 100U$
@@ -8,8 +9,14 @@ print("""
 4 = Memoria de 8GB RAM 40U$
 5 = HD de 1TB 50U$
 """)
+
+#Entrada de dados
+
 produto = int(input("Digite o numero do produto que deseja comprar: "))
 quantidade = int(input("Digite a quantidade que deseja comprar: "))
+
+#PROCESSAMENTO
+
 if produto == 1:
     preco = 100
     produto = "Placa de video generica"
@@ -38,5 +45,8 @@ elif quantidade > 5 and quantidade <= 10:
 elif quantidade > 10:
     desconto = valortotal * 0.05
     valortotal = valortotal - desconto
+
+#Saida de dados
+
 print(f"O valor total a ser pago é de {valortotal}U$")
 print(f"Você comprou {quantidade} unidades do produto {produto}")
