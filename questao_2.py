@@ -1,5 +1,7 @@
 import os
 os.system ("clear")
+
+#Entrada de dados
 nome = str(input("Digite o nome:"))
 sexo = int(input("Digite 1 para masculino e 2 para feminino: "))
 estadoc = int(input("Digite 1 para casado(a) e 2 para solteiro(a): "))
@@ -9,6 +11,8 @@ if sexo == 2 and estadoc == 1:
     sexo = "Feminino"
     estadoc = "Casada"
     print(f"Sexo: {sexo}\nEstado civil: {estadoc}\nTempo de casada: {tempo}")
+
+ #Sainda de dados
 
 elif sexo == 2 and estadoc == 2:
     sexo = "Feminino"

@@ -1,3 +1,5 @@
+import os
+os.system("clear || cls")
 n1 = int(input("Digite o número A: "))
 n2 = int(input("Digite o número B: "))
 forma = str(input("Digite a forma de cálculo: "))
