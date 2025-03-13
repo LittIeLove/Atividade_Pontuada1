@@ -22,7 +22,7 @@ kgtotal = kgmo + kgma
 
 #saida de dados
 
-if valorkgtotal >= 50 or kgma >= 8:
+if valorkgtotal >= 50 or kgtotal >= 8:
     desconto = valorkgtotal * 0.10
     valorkgtotal = valorkgtotal - desconto
 print(f"O valor total a ser pago é de R${valorkgtotal:.2f}")
