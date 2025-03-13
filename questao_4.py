@@ -25,5 +25,8 @@ kgtotal = kgmo + kgma
 if valordinheirot >= 50 or kgtotal >= 8:
     desconto = valordinheirot * 0.10
     valordinheirot = valordinheirot - desconto
+
+os.system ("clear || cls")
+print(f"Você ira levar {kgmo}KG de morango\nVocê ira levar {kgma}KG de maçã")
 print(f"O valor total a ser pago é de R${valordinheirot:.2f}")
 print(f"Você comprou {kgtotal} KG de frutas")

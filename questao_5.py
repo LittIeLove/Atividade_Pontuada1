@@ -19,3 +19,4 @@ elif forma == "/":
     print(f"A divisão de {n1} / {n2} é igual a {n1 / n2}")
 else:
     print("Operação inválida")
+    exit
