@@ -17,13 +17,13 @@ else:
 
 valormo = kgmo * preco_mo
 valorma = kgma * preco_ma
-valorkgtotal = valormo + valorma
+valordinheirot = valormo + valorma
 kgtotal = kgmo + kgma
 
 #saida de dados
 
-if valorkgtotal >= 50 or kgtotal >= 8:
-    desconto = valorkgtotal * 0.10
-    valorkgtotal = valorkgtotal - desconto
-print(f"O valor total a ser pago é de R${valorkgtotal:.2f}")
+if valordinheirot >= 50 or kgtotal >= 8:
+    desconto = valordinheirot * 0.10
+    valordinheirot = valordinheirot - desconto
+print(f"O valor total a ser pago é de R${valordinheirot:.2f}")
 print(f"Você comprou {kgtotal} KG de frutas")
