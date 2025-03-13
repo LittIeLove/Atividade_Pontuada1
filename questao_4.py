@@ -23,7 +23,7 @@ kgtotal = kgmo + kgma
 #saida de dados
 
 if valordinheirot >= 50 or kgtotal >= 8:
-    desconto = valordinheirot * 0.10
+    desconto = valordinheirot * 0.1
     valordinheirot = valordinheirot - desconto
 
 os.system ("clear || cls")

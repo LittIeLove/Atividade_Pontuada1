@@ -48,5 +48,8 @@ elif quantidade > 10:
 
 #Saida de dados
 
+os.system ("clear || cls")
+
+print(f"Valor do desconto: {desconto}R$")
 print(f"O valor total a ser pago é de {valortotal}U$")
-print(f"Você comprou {quantidade} unidades do produto {produto}")
+print(f"Você comprou {quantidade} unidades do produto: {produto}")
